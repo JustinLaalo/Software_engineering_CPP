@@ -1,0 +1,47 @@
+Author: Justin Laalo (SN: 101232038)
+Description of program: The program simulate a basic delivery system between ordering, drivers and franchises where we need to make it effectient as possible by determining the closest to each location.
+List of files: 
+	- test files/ files given by prof
+		- location.c
+		- location.h 
+		- classa1.py
+		- Controller.cc
+		- Controller.h
+		- defs.h
+		- View.cc
+		- View.h
+		- main.cc
+	- Created by me
+		- Driver.cc -> inherits from Entity class, adds basic function that a Driver might have
+		- Driver.h -> initalizes the drivers class where is forward declars its functions and varaibles 
+		- Order.cc -> This represents an order made by a customer. To keep it simple we will assume everyone orders exactly 1 menu item
+		- Order.h -> initalizes the Order class where is forward declars its functions and varaibles 
+		- Queue.cc -> This has a similar structure to the List class we saw in class. You may use any code from the List class to put into
+Queue, but in addition you will implement Queue specific behaviour.
+		- Queue.h -> initalizes the Queue class where is forward declars its functions and varaibles 
+		- Franchise.cc -> inherits from Entity class, adds basic function that a Franchise might have
+		- Franchise.h -> initalizes the Franchise class where is forward declars its functions and varaibles 
+		- Entity.cc -> base class for the Driver and Franchise classes 
+		- Entity.h -> initalizes the Entity class where is forward declars its functions and varaibles 
+		- Pierres.cc -> This class will will store Drivers and Franchises and manage their interactions. To do this it will maintain a pair
+of data structures of your choice. You may use vectors, or use any class from any previous assignment or class
+code. For example, to store Drivers, you can use vector<Driver*>, or you can adapt PhotoArray to store Driver*
+instead of Photo*, or adapt our linked list example to store Driver* as data
+		- Pierres.h -> initalizes the Pierres class where is forward declars its functions and varaibles 
+Compilation Command: make all
+Launching Command: ./a3
+Instructions:
+	- once you run the program you will be given 5 options and if you type something other than those 5 options you will exit the program
+		1) will print out all the current drivers 
+		2) will print out all the current franchises
+		3) will add a new customer 
+			- ask you for a name
+			- then you order
+			- finally a location, a location must have a x and y value
+		4) have a driver pick your ur order
+			- will prompt you for a franchise id
+			- then it will ask you the number orders you want
+		5) have the driver drop off the order
+			- it will first ask you for the driver id
+			- then finally the number of orders to the deliver
+

@@ -1,0 +1,20 @@
+Author: Justin Laalo (SN: 101232038)
+Description of program: The program is a simple simulation of a hotel where you can test out weird cases with reseration dates and adding rooms
+List of files: 
+	- Date.cc -> provide generic functions to handle date comparisons
+	- Date.h -> initalizes all the classes and varibables in Date
+	- defs.h -> standards the program should follow
+	- Hotel.cc -> organizes the rooms
+	- Hotel.h -> initalizes all the classes and varibables in Date
+	- main.cc -> runs tests
+	- Makefile
+	- Reservation.cc -> books reservations based on date functions
+	- Reservation.h -> initalizes all the classes and varibables in Reservation
+	- Room.cc -> gourps all the Reservations and organizes them based on certain functions
+	- Room.h -> initalizes all the classes and varibables in Room
+Compilation Command: make all
+Launching Command: ./a1
+Instructions:
+	- after running choose a number to test out that case
+	- to test out all the cases type in "10"
+

@@ -1,0 +1,22 @@
+Author: Justin Laalo (SN: 101232038)
+Description of program: The program is a simple simulation of a a filesystem of Albums would work, like removing, organizing and adding new photos to albums
+List of files: 
+	- Date.cc -> provide generic functions to handle date comparisons
+	- Date.h -> initalizes all the classes and varibables in Date
+	- Photo.cc -> enables basic photo comparion functions
+	- Photo.h -> initalizes the Photo class and variables
+	- PhotoArray.cc -> a colleciton of photo objects, this class allows us to handle photos on a wider scale
+	- PhotoArray.h -> initalizes the photoArray class and variables
+	- Album.cc -> wrapper class from PhotoArray, helps to have neater calls and code
+	- Album.h -> initalizes the Album class and variables
+	- AlbumArray.cc -> is a collection of Album objects, allows us to add or manipulate them
+	- AlbumArray.h -> initalizes the AlbumArray class and variables
+	- PhotoGram -> adds some new funcitonality to the AlbumArray class, helps us add photos and such to the Albums in the AlbumArray
+	- PhotoGram.h -> initalizes the PhotoGram class and variables 
+	- Client.cc -> uses PhotoGram and brings all of this together
+	- Client.h -> initalizes the Client class and variables
+Compilation Command: make all
+Launching Command: ./a2
+Instructions:
+	- after running choose a number to test out that case
+
